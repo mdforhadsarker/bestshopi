@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "724742704006",
+    "firebase_url": "https://bestshopi.firebaseio.com",
+    "project_id": "bestshopi",
+    "storage_bucket": "bestshopi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724742704006:android:b7399d8c3409d825",
+        "android_client_info": {
+          "package_name": "com.example.ashad.bestshopi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724742704006-mofss38k9o6iuupjalomm2c523ltja2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ashad.bestshopi",
+            "certificate_hash": "a5d943903d415684baa046330b2557da013ead77"
+          }
+        },
+        {
+          "client_id": "724742704006-c5n0evjcaavc5adremumugs1t0trdigq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOhUDYubJPMzlN9nGryERs_2RBH-p4hVU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724742704006-c5n0evjcaavc5adremumugs1t0trdigq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchProductsActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/r5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorPrimary">
+
+        <EditText
+            android:id="@+id/search_product_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/input_design"
+            android:hint="Product name"
+            android:padding="9dp"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <ImageButton
+            android:id="@+id/search_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/search_product_name"
+            android:background="@color/colorPrimaryDark"
+            android:tint="@android:color/white"
+            android:padding="5dp"
+            android:src="@drawable/search"
+            android:visibility="visible" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        >
+        <Button
+            android:layout_marginRight="1dp"
+            android:id="@+id/category_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#EEEEEE"
+            android:text="CATEGORY"
+            android:textColor="@android:color/black"
+
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/filter_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:text="FILTER/SORT"
+            android:layout_marginLeft="1dp"
+            android:layout_marginEnd="0dp"
+            android:layout_toRightOf="@+id/category_btn"
+            android:background="#EEEEEE"
+            android:textColor="@android:color/black"
+            android:visibility="visible" />
+
+
+
+    </RelativeLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/r6"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+</RelativeLayout>

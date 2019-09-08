@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilterActivity"
+    android:layout_marginTop="10dp">
+
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/Categories"/>
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/spinner4"
+        android:layout_alignTop="@+id/textView4"
+        android:entries="@array/Brands"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="74dp"
+        android:entries="@array/Colors"
+        />
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignTop="@+id/textView5"
+        android:entries="@array/Price"
+        />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_marginStart="220dp"
+        android:layout_alignEnd="@+id/spinner3"
+        android:entries="@array/Sizes"
+        />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview5"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@+id/textView4"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="44dp"
+        android:textColor="#000"
+        android:text="@string/textview1" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/spinner2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="-1dp"
+        android:textColor="#000"
+        android:text="@string/textview2" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/textview3"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:text="@string/textview4"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="44dp"
+        android:textColor="#000" />
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/buttons"
+        android:text="@string/recommend_me"
+        android:textColor="#EEEEEE"
+
+        android:textSize="20sp" />
+
+
+
+
+
+</RelativeLayout>

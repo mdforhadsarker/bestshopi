@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id = "@+id/nav_about"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "About"
+        android:textSize = "20sp"
+        android:textColor = "@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textStyle = "bold"
+        android:textAlignment="center"
+        android:padding="9dp"
+        />
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/nav_about"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/bestshopilogo1"
+        android:contentDescription="@string/todo"
+        />
+
+    <TextView
+        android:id = "@+id/nav_text"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_below="@+id/nav_about"
+        android:text = "Android Version 9"
+        android:textSize = "18sp"
+        android:textColor = "@android:color/darker_gray"
+        android:textStyle = "italic"
+        android:textAlignment="center"
+        android:padding="9dp"
+        />
+    <TextView
+        android:id = "@+id/nav_text1"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_below="@+id/nav_text"
+        android:text = " ©forhad"
+        android:textSize = "18sp"
+        android:textColor = "@android:color/darker_gray"
+        android:textStyle = "italic"
+        android:textAlignment="center"
+        />
+
+
+</RelativeLayout>
